@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Restaurant App</title>
+    </head>
+    <body>
+        <div>
+            <form id="form" class="form">
+                <label for="price">Choose Price : </label>
+                <input id="price" name="price" type="number">
+                <label for="item">Choose Dish : </label>
+                <input id="item" name="item" type="text">
+                <label for="table">Choose a Table : </label>
+                <select name="table" id="table">
+                    <option>table 1</option>
+                    <option>table 2</option>
+                    <option>table 3</option>
+                </select>
+                <input type="submit" value="add to bill" id="submit" name="submit"> 
+            </form>
+        </div>
+        <div>
+            <h1>Orders</h1>
+            <h2>Table 1</h2>
+                <ul id="table 1" class="table"></ul>
+            <h2>Table 2</h2>
+                <ul id="table 2" class="table"></ul>
+            <h2>Table 3</h2>
+                <ul id="table 3" class="table"></ul>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+        <script src="main.js"></script> 
+    </body>
+
+</html>
